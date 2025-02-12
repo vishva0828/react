@@ -1,0 +1,19 @@
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+th, td {
+  padding: 12px;
+  border: 1px solid #656262;
+  text-align: left;
+  font-size: 20px;
+}
+th {
+  background-color: #c0e9f9;
+}
+td{
+  background-color: #c3f0f9;
+}
+h2{
+  text-align: center;
+}

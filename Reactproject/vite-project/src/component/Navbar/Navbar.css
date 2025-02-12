@@ -1,0 +1,10 @@
+.navi-container{
+  border: 1px solid grey;
+  height: 300px;
+  width: 500px;
+  background-color: rgb(126, 187, 238);
+}
+p{
+  color: rgb(240, 91, 232);
+  
+}

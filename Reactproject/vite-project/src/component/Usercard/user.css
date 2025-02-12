@@ -1,0 +1,9 @@
+.main-container {
+  border: 1px solid grey;
+  width: 400px;
+  border-radius: 10px;
+}
+p {
+  font-size: 25px;
+  color: rgb(6, 77, 77);
+}
