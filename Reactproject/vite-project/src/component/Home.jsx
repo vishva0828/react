@@ -1,9 +1,10 @@
 import Carddesing from "./Carddesign/card"
 import Navbar from "./Navbar/Navbar";
+import Profile from "./Profile/profile";
 import Usercard from "./Usercard/user";
 import Userdata from "./Userdata/user";
 
-export default function Home(){
+export default function Home() {
 
   const userDetails = {
     name: "vishva",
@@ -11,17 +12,17 @@ export default function Home(){
     address: "villianur",
   };
 
-  return(
+  return (
     <>
-    {/* <Usercard></Usercard>
+      {/* <Usercard></Usercard>
     <Userdata></Userdata> */}
-    
-    {/* <Navbar Details = {userDetails} />
+
+      {/* <Navbar Details = {userDetails} />
     <h2>welcome {userDetails.name}</h2>
     <p>React project</p> */}
 
-    <Carddesing/>
+      <Profile></Profile>
     </>
   )
-  
+
 }

@@ -1,6 +1,8 @@
 import { createBrowserRouter } from "react-router-dom";
 import Home from "../component/Home";
-import Hooks from "../component/Hooks/hooks1";
+import Profile from "../component/Profile/profile";
+
+
 
 const router = createBrowserRouter(
   [
@@ -8,20 +10,9 @@ const router = createBrowserRouter(
       path: "/",
       element: <Home />
     },
-
-    // {
-    //   path: "/Hooks",
-    //   element: <Hooks/>
-    // }
-
     {
-      path:"/card",
-      element:<Carddesign/>
-    },
-
-    {
-      path:"/addcart",
-      element:<addcart></addcart>
+      path: "/Profile",
+      element: <Profile/>
     }
   ]
 )
